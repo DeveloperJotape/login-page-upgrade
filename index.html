@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Login</title>
+</head>
+
+<body>
+    <!--  Container -->
+    <section class="flex items-center justify-center min-h-screen bg-gray-100">
+
+        <div class="relative flex flex-col m-6 space-y-8 bg-white shadow-2x1 rounded-2xl md:flex-row md:space-y-0">
+            <!-- Formulário -->
+            <div class="flex flex-col justify-center p-8 md:p-14">
+                <span class="mb-3 text-4xl font-bold">Bem-vindo!</span>
+                <span class="font-light text-gray-400">Seja bem vindo a <span
+                        class="font-bold text-sky-900">Upgrade</span>!</span>
+                <span class="font-light text-gray-400 ">Acesse o sistema com seu login e senha.</span>
+                <span class="font-light text-gray-400 mb-8"> <a href="#">Caso queira se associar, entre em contato
+                        clicando aqui</a></span>
+                <!-- Email -->
+                <div class="py-2">
+                    <span class="mb-2 text-md">Email</span>
+                    <input
+                        class="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500"
+                        type="text" name="email" id="email">
+                </div>
+
+                <!-- Senha -->
+                <div class="py-2">
+                    <span class="mb-2 text-md">Senha</span>
+                    <input
+                        class="w-full p-2 border border-gray-300 rounded-md placeholder:font-light placeholder:text-gray-500"
+                        type="password" name="password" id="password">
+                </div>
+
+                <!-- Botão-->
+                <button
+                    class="border mt-4 w-full bg-black text-white p-2 rounded-lg mb-6 hover:bg-white hover:text-black hover:border hover:border-gray-300 hover:cursor-pointer">
+                    Entrar
+                </button>
+            </div>
+            <!-- Imagem -->
+            <div class="relative">
+                <img src="https://images.pexels.com/photos/30419505/pexels-photo-30419505/free-photo-of-arranha-ceus-impressionantes-em-preto-e-branco-de-vancouver.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="image" class="w-[400px] h-full hidden rounded-r-2xl md:block object-cover">
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
